@@ -7,7 +7,7 @@ const experimentalPlane = require('./planes/experimentalPlane');
 const experimentalTypes = require('./models/experimentalTypes');
 const classificationLevel = require('./models/lassificationLevel');
 
-(function run() {
+(function addPlanes() {
 
     let planes = [
         new passengerPlane('Boeing-737', 900, 12000, 60500, 164),
